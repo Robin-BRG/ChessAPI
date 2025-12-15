@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Classement Chess.com (exemple)</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for arrows/icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <main class="container">
+    <header class="main-header">
+      <h1>Classement Chess.com</h1>
+      <div class="header-meta">
+        <div id="last-updated" class="last-updated">Dernière maj : —</div>
+        <button id="next-refresh" class="refresh-btn">Prochaine maj dans 05:00</button>
+      </div>
+    </header>
+
+    <div id="podium" class="podium"></div>
+
+    <div class="table-wrapper">
+      <table id="leaders-col1" class="leaders">
+        <thead>
+          <tr>
+            <th style="width:50px">Rank</th>
+            <th style="width:180px">Joueur</th>
+            <th style="width:80px">Classe</th>
+            <th style="width:120px">Score</th>
+            <th style="width:90px">History</th>
+            <th style="width:100px">W/L/D</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      
+      <table id="leaders-col2" class="leaders">
+        <thead>
+          <tr>
+            <th style="width:50px">Rank</th>
+            <th style="width:180px">Joueur</th>
+            <th style="width:80px">Classe</th>
+            <th style="width:120px">Score</th>
+            <th style="width:90px">History</th>
+            <th style="width:100px">W/L/D</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
