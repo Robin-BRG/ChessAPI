@@ -320,9 +320,10 @@ function render(players){
 
     const wrapper = document.createElement('div');
     wrapper.className = `podium-wrapper rank-${rankNum}`;
-    const avatarUrl = p.avatar || 'https://api.dicebear.com/7.x/avataaars/svg?seed=' + p.username;
+    const defaultAvatar = 'https://api.dicebear.com/7.x/avataaars/svg?seed=' + p.username;
+    const avatarUrl = p.avatar || defaultAvatar;
     wrapper.innerHTML = `
-      <img class="podium-avatar-top" src="${avatarUrl}" alt="${p.username}" />
+      <img class="podium-avatar-top" src="${avatarUrl}" alt="${p.username}" onerror="this.src='${defaultAvatar}'" />
       <div class="podium-card">
         <div class="podium-medal">${medals[i]}</div>
         <div class="podium-bottom">
@@ -384,12 +385,13 @@ function render(players){
     const classLetter = p.class ? p.class.toUpperCase().trim() : '';
     const fullClass = classLetter ? `${calculatedClass} ${classLetter}` : calculatedClass;
     const badgeClass = `class-badge badge-${calculatedClass}`;
+    const defaultAvatar = 'https://api.dicebear.com/7.x/avataaars/svg?seed=' + p.username;
 
     tr.innerHTML = `
       <td style="width:50px">${arrowFor(p.direction)} ${rankNum}</td>
       <td>
         <div class="user-cell">
-          <img class="avatar" src="${p.avatar || 'https://api.dicebear.com/7.x/avataaars/svg?seed=' + p.username}" alt="${p.username}" />
+          <img class="avatar" src="${p.avatar || defaultAvatar}" alt="${p.username}" onerror="this.src='${defaultAvatar}'" />
           <div>
             <span class="username">${p.username}</span>
             <div class="muted">${p.firstName} ${p.lastName}</div>
