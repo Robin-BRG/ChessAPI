@@ -1,11 +1,843 @@
 [
   {
+    "username": "MagnusCarlsen",
+    "firstName": "Magnus",
+    "lastName": "Carlsen",
+    "promo": "2028",
+    "class": "C",
+    "previousRank": 1,
+    "rapid": {
+      "current": 2941,
+      "best": 2977
+    },
+    "blitz": {
+      "current": 3379,
+      "best": 3401
+    },
+    "history7days": [
+      2339,
+      2368,
+      2395,
+      2424,
+      2431,
+      2440,
+      2450
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 107,
+      "losses": 26,
+      "draws": 95
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3889224.121e2094.200x200o.361c2f8a59c2.jpg"
+  },
+  {
+    "username": "TigranGharamian",
+    "firstName": "Tigran",
+    "lastName": "Gharamian",
+    "promo": "2027",
+    "class": "C",
+    "previousRank": 2,
+    "rapid": {
+      "current": 2903,
+      "best": 2917
+    },
+    "blitz": {
+      "current": 3000,
+      "best": 3069
+    },
+    "history7days": [
+      2467,
+      2449,
+      2419,
+      2417,
+      2428,
+      2408,
+      2426
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 60,
+      "losses": 0,
+      "draws": 4
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/20597950.693261ec.200x200o.c3fc29ce3b09.jpeg"
+  },
+  {
+    "username": "Firouzja2003",
+    "firstName": "Alireza",
+    "lastName": "Firouzja",
+    "promo": "2025",
+    "class": "B",
+    "previousRank": 3,
+    "rapid": {
+      "current": 2844,
+      "best": 2882
+    },
+    "blitz": {
+      "current": 3240,
+      "best": 3366
+    },
+    "history7days": [
+      1272,
+      1291,
+      1298,
+      1284,
+      1257,
+      1241,
+      1270
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 98,
+      "losses": 53,
+      "draws": 85
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/42022994.2c7a0722.200x200o.3088f5180d8d.jpg"
+  },
+  {
+    "username": "lachesisQ",
+    "firstName": "Ian",
+    "lastName": "Nepomniachtchi",
+    "promo": "2028",
+    "class": "D",
+    "previousRank": 4,
+    "rapid": {
+      "current": 2810,
+      "best": 2908
+    },
+    "blitz": {
+      "current": 3139,
+      "best": 3287
+    },
+    "history7days": [
+      2294,
+      2284,
+      2271,
+      2243,
+      2242,
+      2254,
+      2232
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 130,
+      "losses": 63,
+      "draws": 111
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/28417564.288cde61.200x200o.d3c0bb1c1afd.jpg"
+  },
+  {
+    "username": "LevonAronian",
+    "firstName": "Levon",
+    "lastName": "Aronian",
+    "promo": "2025",
+    "class": "C",
+    "previousRank": 5,
+    "rapid": {
+      "current": 2808,
+      "best": 2939
+    },
+    "blitz": {
+      "current": 3115,
+      "best": 3152
+    },
+    "history7days": [
+      2512,
+      2489,
+      2460,
+      2480,
+      2499,
+      2475,
+      2495
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 167,
+      "losses": 80,
+      "draws": 133
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/26897402.07482c01.200x200o.aafdac4f4570.jpeg"
+  },
+  {
+    "username": "FabianoCaruana",
+    "firstName": "Fabiano",
+    "lastName": "Caruana",
+    "promo": "2029",
+    "class": "D",
+    "previousRank": 6,
+    "rapid": {
+      "current": 2797,
+      "best": 3045
+    },
+    "blitz": {
+      "current": 3169,
+      "best": 3246
+    },
+    "history7days": [
+      1735,
+      1707,
+      1717,
+      1744,
+      1752,
+      1729,
+      1700
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 198,
+      "losses": 83,
+      "draws": 150
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/11177810.9dfc8d31.200x200o.9a9eccebc07c.png"
+  },
+  {
+    "username": "Polish_fighter3000",
+    "firstName": "Jan-Krzysztof",
+    "lastName": "Duda",
+    "promo": "2025",
+    "class": "D",
+    "previousRank": 7,
+    "rapid": {
+      "current": 2790,
+      "best": 2997
+    },
+    "blitz": {
+      "current": 3206,
+      "best": 3239
+    },
+    "history7days": [
+      2665,
+      2663,
+      2646,
+      2667,
+      2663,
+      2685,
+      2683
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 76,
+      "losses": 39,
+      "draws": 59
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/47485766.de241c41.200x200o.7b706ebf58e7.jpeg"
+  },
+  {
+    "username": "Sibelephant",
+    "firstName": "Vladislav",
+    "lastName": "Artemiev",
+    "promo": "2028",
+    "class": "A",
+    "previousRank": 8,
+    "rapid": {
+      "current": 2752,
+      "best": 2905
+    },
+    "blitz": {
+      "current": 3242,
+      "best": 3246
+    },
+    "history7days": [
+      2789,
+      2767,
+      2792,
+      2778,
+      2788,
+      2771,
+      2789
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 69,
+      "losses": 28,
+      "draws": 75
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/33903360.eba9f5a2.200x200o.578bfd0b2e17.jpeg"
+  },
+  {
+    "username": "SergeyKarjakin",
+    "firstName": "Sergey",
+    "lastName": "Karjakin",
+    "promo": "2029",
+    "class": "A",
+    "previousRank": 9,
+    "rapid": {
+      "current": 2735,
+      "best": 2835
+    },
+    "blitz": {
+      "current": 3023,
+      "best": 3023
+    },
+    "history7days": [
+      882,
+      904,
+      889,
+      879,
+      879,
+      891,
+      902
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 4
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/35569958.286df4e9.200x200o.6ff97a6455d4.png"
+  },
+  {
+    "username": "AnishGiri",
+    "firstName": "Anish",
+    "lastName": "Giri",
+    "promo": "2028",
+    "class": "C",
+    "previousRank": 10,
+    "rapid": {
+      "current": 2704,
+      "best": 2852
+    },
+    "blitz": {
+      "current": 3187,
+      "best": 3203
+    },
+    "history7days": [
+      2558,
+      2537,
+      2532,
+      2562,
+      2537,
+      2556,
+      2528
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 123,
+      "losses": 62,
+      "draws": 136
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/22252178.d8dff8c3.200x200o.8375b4cb1335.jpeg"
+  },
+  {
+    "username": "viditchess",
+    "firstName": "Viswanathan",
+    "lastName": "Anand",
+    "promo": "2026",
+    "class": "D",
+    "previousRank": 11,
+    "rapid": {
+      "current": 2693,
+      "best": 2754
+    },
+    "blitz": {
+      "current": 3054,
+      "best": 3148
+    },
+    "history7days": [
+      2552,
+      2528,
+      2532,
+      2550,
+      2572,
+      2597,
+      2626
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 136,
+      "losses": 68,
+      "draws": 105
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8274000.18a13248.200x200o.7611a9919a1d.jpeg"
+  },
+  {
+    "username": "Grischuk",
+    "firstName": "Alexander",
+    "lastName": "Grischuk",
+    "promo": "2025",
+    "class": "D",
+    "previousRank": 12,
+    "rapid": {
+      "current": 2691,
+      "best": 2837
+    },
+    "blitz": {
+      "current": 3192,
+      "best": 3200
+    },
+    "history7days": [
+      2231,
+      2249,
+      2223,
+      2237,
+      2243,
+      2238,
+      2225
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 137,
+      "losses": 93,
+      "draws": 163
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/26897358.10f64fa8.200x200o.634d3db4ddc2.jpeg"
+  },
+  {
+    "username": "VladimirKramnik",
+    "firstName": "Vladimir",
+    "lastName": "Kramnik",
+    "promo": "2026",
+    "class": "C",
+    "previousRank": 13,
+    "rapid": {
+      "current": 2666,
+      "best": 2960
+    },
+    "blitz": {
+      "current": 3062,
+      "best": 3143
+    },
+    "history7days": [
+      1001,
+      1031,
+      1003,
+      1002,
+      990,
+      1007,
+      997
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 60,
+      "losses": 40,
+      "draws": 44
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6135759.png"
+  },
+  {
+    "username": "Msb2",
+    "firstName": "Matthias",
+    "lastName": "Bluebaum",
+    "promo": "2025",
+    "class": "B",
+    "previousRank": 14,
+    "rapid": {
+      "current": 2641,
+      "best": 2692
+    },
+    "blitz": {
+      "current": 3170,
+      "best": 3184
+    },
+    "history7days": [
+      1809,
+      1827,
+      1831,
+      1834,
+      1850,
+      1863,
+      1858
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 306,
+      "losses": 82,
+      "draws": 113
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1739454.png"
+  },
+  {
+    "username": "DanielNaroditsky",
+    "firstName": "Daniel",
+    "lastName": "Naroditsky",
+    "promo": "2028",
+    "class": "C",
+    "previousRank": 15,
+    "rapid": {
+      "current": 2614,
+      "best": 2919
+    },
+    "blitz": {
+      "current": 3073,
+      "best": 3278
+    },
+    "history7days": [
+      1643,
+      1652,
+      1672,
+      1643,
+      1673,
+      1671,
+      1643
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 38,
+      "losses": 22,
+      "draws": 23
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1715324.840b7522.200x200o.b79dde86ff74.jpg"
+  },
+  {
+    "username": "AlexeiShirov",
+    "firstName": "Alexei",
+    "lastName": "Shirov",
+    "promo": "2027",
+    "class": "C",
+    "previousRank": 16,
+    "rapid": {
+      "current": 2540,
+      "best": 2909
+    },
+    "blitz": {
+      "current": 2955,
+      "best": 2971
+    },
+    "history7days": [
+      2645,
+      2660,
+      2637,
+      2645,
+      2674,
+      2693,
+      2680
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 12,
+      "losses": 4,
+      "draws": 2
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/4185042.f1d27ec8.200x200o.e0c59b5ccb8b.jpeg"
+  },
+  {
+    "username": "RomainEdouard",
+    "firstName": "Romain",
+    "lastName": "Edouard",
+    "promo": "2027",
+    "class": "A",
+    "previousRank": 17,
+    "rapid": {
+      "current": 2244,
+      "best": 2244
+    },
+    "blitz": {
+      "current": 2204,
+      "best": 2204
+    },
+    "history7days": [
+      1600,
+      1613,
+      1606,
+      1577,
+      1548,
+      1525,
+      1526
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 10,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/275637589.0682a908.200x200o.b358009687f6.jpg"
+  },
+  {
+    "username": "EvgenyBareev",
+    "firstName": "Evgeny",
+    "lastName": "Bareev",
+    "promo": "2025",
+    "class": "A",
+    "previousRank": 18,
+    "rapid": {
+      "current": 2145,
+      "best": 2326
+    },
+    "blitz": {
+      "current": 2214,
+      "best": 2249
+    },
+    "history7days": [
+      2161,
+      2181,
+      2206,
+      2191,
+      2201,
+      2206,
+      2191
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 104,
+      "losses": 376,
+      "draws": 68
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5382213.jpeg"
+  },
+  {
+    "username": "SamShankland",
+    "firstName": "Sam",
+    "lastName": "Shankland",
+    "promo": "2029",
+    "class": "C",
+    "previousRank": 19,
+    "rapid": {
+      "current": 1817,
+      "best": 1817
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      2357,
+      2350,
+      2369,
+      2388,
+      2362,
+      2348,
+      2325
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/44622014.851cdeb7.200x200o.7ee3d0aeb94e.jpeg"
+  },
+  {
+    "username": "BassemAmin",
+    "firstName": "Bassem",
+    "lastName": "Amin",
+    "promo": "2026",
+    "class": "C",
+    "previousRank": 20,
+    "rapid": {
+      "current": 1723,
+      "best": 1800
+    },
+    "blitz": {
+      "current": 2513,
+      "best": 2513
+    },
+    "history7days": [
+      1498,
+      1484,
+      1470,
+      1440,
+      1459,
+      1446,
+      1438
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/26126968.248d8286.200x200o.d66c70378bb1.jpeg"
+  },
+  {
+    "username": "GMHikaru",
+    "firstName": "Hikaru",
+    "lastName": "Nakamura",
+    "promo": "2029",
+    "class": "A",
+    "previousRank": 21,
+    "rapid": {
+      "current": 1701,
+      "best": 1728
+    },
+    "blitz": {
+      "current": 1485,
+      "best": 1585
+    },
+    "history7days": [
+      1717,
+      1737,
+      1751,
+      1767,
+      1784,
+      1755,
+      1747
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 119,
+      "losses": 239,
+      "draws": 18
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/4584478.jpeg"
+  },
+  {
+    "username": "MVL",
+    "firstName": "Maxime",
+    "lastName": "Vachier-Lagrave",
+    "promo": "2028",
+    "class": "D",
+    "previousRank": 22,
+    "rapid": {
+      "current": 1525,
+      "best": 1695
+    },
+    "blitz": {
+      "current": 1188,
+      "best": 1522
+    },
+    "history7days": [
+      2646,
+      2672,
+      2696,
+      2716,
+      2718,
+      2733,
+      2710
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 622,
+      "losses": 576,
+      "draws": 49
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/7279136.png"
+  },
+  {
+    "username": "ChristianBauer",
+    "firstName": "Christian",
+    "lastName": "Bauer",
+    "promo": "2029",
+    "class": "A",
+    "previousRank": 23,
+    "rapid": {
+      "current": 1314,
+      "best": 1390
+    },
+    "blitz": {
+      "current": 1037,
+      "best": 1390
+    },
+    "history7days": [
+      2758,
+      2736,
+      2743,
+      2755,
+      2778,
+      2767,
+      2737
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 15,
+      "losses": 18,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2399263.dd4cd2b4.200x200o.9b77cded8492.jpeg"
+  },
+  {
+    "username": "Harikrishna",
+    "firstName": "Pentala",
+    "lastName": "Harikrishna",
+    "promo": "2029",
+    "class": "B",
+    "previousRank": 24,
+    "rapid": {
+      "current": 1125,
+      "best": 1281
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1924,
+      1921,
+      1894,
+      1921,
+      1940,
+      1922,
+      1935
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 2219,
+      "losses": 2207,
+      "draws": 261
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9135404.jpeg"
+  },
+  {
+    "username": "Nisipeanu",
+    "firstName": "Liviu-Dieter",
+    "lastName": "Nisipeanu",
+    "promo": "2025",
+    "class": "C",
+    "previousRank": 25,
+    "rapid": {
+      "current": 1052,
+      "best": 1200
+    },
+    "blitz": {
+      "current": 1071,
+      "best": 0
+    },
+    "history7days": [
+      1728,
+      1699,
+      1714,
+      1689,
+      1686,
+      1683,
+      1709
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 1,
+      "losses": 5,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/7733630.jpeg"
+  },
+  {
+    "username": "AndreikinD",
+    "firstName": "Dmitry",
+    "lastName": "Andreikin",
+    "promo": "2025",
+    "class": "B",
+    "previousRank": 26,
+    "rapid": {
+      "current": 1023,
+      "best": 1151
+    },
+    "blitz": {
+      "current": 1090,
+      "best": 1090
+    },
+    "history7days": [
+      2468,
+      2440,
+      2435,
+      2428,
+      2418,
+      2414,
+      2393
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 123,
+      "losses": 127,
+      "draws": 15
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3977137.png"
+  },
+  {
     "username": "BigLeyyy",
     "firstName": "Léo",
     "lastName": "Hannecart",
     "promo": "2027",
     "class": "A",
-    "previousRank": 1,
+    "previousRank": 27,
     "current": 740,
     "best": 740,
     "history7days": [
@@ -39,7 +871,7 @@
     "lastName": "BORG",
     "promo": "2027",
     "class": "A",
-    "previousRank": 2,
+    "previousRank": 28,
     "rapid": {
       "current": 642,
       "best": 958
@@ -66,1075 +898,19 @@
     "avatar": "https://images.chesscomfiles.com/uploads/v1/user/127132552.6c808c15.200x200o.02a02aa65e05.jpeg"
   },
   {
-    "username": "GMHikaru",
-    "firstName": "Hikaru",
-    "lastName": "Nakamura",
-    "promo": "2029",
-    "class": "A",
-    "previousRank": 3,
-    "rapid": {
-      "current": 1701,
-      "best": 1728
-    },
-    "blitz": {
-      "current": 1485,
-      "best": 1585
-    },
-    "history7days": [
-      1717,
-      1737,
-      1751,
-      1767,
-      1784,
-      1755,
-      1747
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 119,
-      "losses": 239,
-      "draws": 18
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/4584478.jpeg"
-  },
-  {
-    "username": "MagnusCarlsen",
-    "firstName": "Magnus",
-    "lastName": "Carlsen",
-    "promo": "2028",
-    "class": "C",
-    "previousRank": 5,
-    "rapid": {
-      "current": 2331,
-      "best": 2511
-    },
-    "blitz": {
-      "current": 2591,
-      "best": 2677
-    },
-    "history7days": [
-      2339,
-      2368,
-      2395,
-      2424,
-      2431,
-      2440,
-      2450
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 135,
-      "losses": 118,
-      "draws": 88
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1584702.png"
-  },
-  {
-    "username": "FabianoCaruana",
-    "firstName": "Fabiano",
-    "lastName": "Caruana",
-    "promo": "2029",
-    "class": "D",
-    "previousRank": 7,
-    "rapid": {
-      "current": 1765,
-      "best": 1935
-    },
-    "blitz": {
-      "current": 1600,
-      "best": 1624
-    },
-    "history7days": [
-      1735,
-      1707,
-      1717,
-      1744,
-      1752,
-      1729,
-      1700
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 153,
-      "losses": 224,
-      "draws": 59
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8650372.jpeg"
-  },
-  {
-    "username": "Wesley_So",
-    "firstName": "Wesley",
-    "lastName": "So",
-    "promo": "2025",
-    "class": "A",
-    "previousRank": 9,
-    "rapid": {
-      "current": 1913,
-      "best": 1998
-    },
-    "blitz": {
-      "current": 2181,
-      "best": 2282
-    },
-    "history7days": [
-      1901,
-      1918,
-      1910,
-      1926,
-      1940,
-      1925,
-      1911
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 339,
-      "losses": 30,
-      "draws": 81
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6058486.jpeg"
-  },
-  {
-    "username": "DanielNaroditsky",
-    "firstName": "Daniel",
-    "lastName": "Naroditsky",
-    "promo": "2028",
-    "class": "C",
-    "previousRank": 11,
-    "rapid": {
-      "current": 1617,
-      "best": 1716
-    },
-    "blitz": {
-      "current": 1809,
-      "best": 1856
-    },
-    "history7days": [
-      1643,
-      1652,
-      1672,
-      1643,
-      1673,
-      1671,
-      1643
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 335,
-      "losses": 64,
-      "draws": 50
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9291121.png"
-  },
-  {
-    "username": "LevonAronian",
-    "firstName": "Levon",
-    "lastName": "Aronian",
-    "promo": "2025",
-    "class": "C",
-    "previousRank": 13,
-    "rapid": {
-      "current": 2520,
-      "best": 2698
-    },
-    "blitz": {
-      "current": 2317,
-      "best": 2350
-    },
-    "history7days": [
-      2512,
-      2489,
-      2460,
-      2480,
-      2499,
-      2475,
-      2495
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 299,
-      "losses": 313,
-      "draws": 71
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6110595.png"
-  },
-  {
-    "username": "lachesisQ",
-    "firstName": "Ian",
-    "lastName": "Nepomniachtchi",
-    "promo": "2028",
-    "class": "D",
-    "previousRank": 15,
-    "rapid": {
-      "current": 2307,
-      "best": 2330
-    },
-    "blitz": {
-      "current": 2440,
-      "best": 2537
-    },
-    "history7days": [
-      2294,
-      2284,
-      2271,
-      2243,
-      2242,
-      2254,
-      2232
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 278,
-      "losses": 311,
-      "draws": 97
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/7750586.jpeg"
-  },
-  {
-    "username": "AnishGiri",
-    "firstName": "Anish",
-    "lastName": "Giri",
-    "promo": "2028",
-    "class": "C",
-    "previousRank": 17,
-    "rapid": {
-      "current": 2561,
-      "best": 2719
-    },
-    "blitz": {
-      "current": 2309,
-      "best": 2398
-    },
-    "history7days": [
-      2558,
-      2537,
-      2532,
-      2562,
-      2537,
-      2556,
-      2528
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 81,
-      "losses": 152,
-      "draws": 18
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5046716.jpeg"
-  },
-  {
-    "username": "MVL",
-    "firstName": "Maxime",
-    "lastName": "Vachier-Lagrave",
-    "promo": "2028",
-    "class": "D",
-    "previousRank": 19,
-    "rapid": {
-      "current": 2663,
-      "best": 2814
-    },
-    "blitz": {
-      "current": 2839,
-      "best": 2905
-    },
-    "history7days": [
-      2646,
-      2672,
-      2696,
-      2716,
-      2718,
-      2733,
-      2710
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 476,
-      "losses": 312,
-      "draws": 33
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/7279136.png"
-  },
-  {
-    "username": "Firouzja2003",
-    "firstName": "Alireza",
-    "lastName": "Firouzja",
-    "promo": "2025",
-    "class": "B",
-    "previousRank": 21,
-    "rapid": {
-      "current": 1265,
-      "best": 1462
-    },
-    "blitz": {
-      "current": 1187,
-      "best": 1203
-    },
-    "history7days": [
-      1272,
-      1291,
-      1298,
-      1284,
-      1257,
-      1241,
-      1270
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 124,
-      "losses": 289,
-      "draws": 92
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5088694.jpeg"
-  },
-  {
-    "username": "viditchess",
-    "firstName": "Viswanathan",
-    "lastName": "Anand",
-    "promo": "2026",
-    "class": "D",
-    "previousRank": 23,
-    "rapid": {
-      "current": 2555,
-      "best": 2571
-    },
-    "blitz": {
-      "current": 2361,
-      "best": 2479
-    },
-    "history7days": [
-      2552,
-      2528,
-      2532,
-      2550,
-      2572,
-      2597,
-      2626
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 309,
-      "losses": 299,
-      "draws": 98
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6339941.png"
-  },
-  {
-    "username": "Teimour",
-    "firstName": "Teimour",
-    "lastName": "Radjabov",
-    "promo": "2027",
-    "class": "C",
-    "previousRank": 25,
-    "rapid": {
-      "current": 803,
-      "best": 961
-    },
-    "blitz": {
-      "current": 947,
-      "best": 1049
-    },
-    "history7days": [
-      778,
-      757,
-      772,
-      771,
-      778,
-      749,
-      749
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 142,
-      "losses": 111,
-      "draws": 83
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6850753.png"
-  },
-  {
-    "username": "mishanp",
-    "firstName": "Shakhriyar",
-    "lastName": "Mamedyarov",
-    "promo": "2027",
-    "class": "A",
-    "previousRank": 27,
-    "rapid": {
-      "current": 1219,
-      "best": 1306
-    },
-    "blitz": {
-      "current": 1354,
-      "best": 1393
-    },
-    "history7days": [
-      1216,
-      1203,
-      1176,
-      1175,
-      1188,
-      1199,
-      1228
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 54,
-      "losses": 251,
-      "draws": 67
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8819253.png"
-  },
-  {
-    "username": "VladimirKramnik",
-    "firstName": "Vladimir",
-    "lastName": "Kramnik",
-    "promo": "2026",
-    "class": "C",
-    "previousRank": 29,
-    "rapid": {
-      "current": 1000,
-      "best": 1044
-    },
-    "blitz": {
-      "current": 907,
-      "best": 922
-    },
-    "history7days": [
-      1001,
-      1031,
-      1003,
-      1002,
-      990,
-      1007,
-      997
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 342,
-      "losses": 238,
-      "draws": 78
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6135759.png"
-  },
-  {
-    "username": "Grischuk",
-    "firstName": "Alexander",
-    "lastName": "Grischuk",
-    "promo": "2025",
-    "class": "D",
-    "previousRank": 31,
-    "rapid": {
-      "current": 2220,
-      "best": 2277
-    },
-    "blitz": {
-      "current": 2264,
-      "best": 2356
-    },
-    "history7days": [
-      2231,
-      2249,
-      2223,
-      2237,
-      2243,
-      2238,
-      2225
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 118,
-      "losses": 175,
-      "draws": 86
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6129382.png"
-  },
-  {
-    "username": "SergeyKarjakin",
-    "firstName": "Sergey",
-    "lastName": "Karjakin",
-    "promo": "2029",
-    "class": "A",
-    "previousRank": 33,
-    "rapid": {
-      "current": 866,
-      "best": 1030
-    },
-    "blitz": {
-      "current": 1082,
-      "best": 1124
-    },
-    "history7days": [
-      882,
-      904,
-      889,
-      879,
-      879,
-      891,
-      902
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 485,
-      "losses": 42,
-      "draws": 35
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/7093124.png"
-  },
-  {
-    "username": "RichardRapport",
-    "firstName": "Richard",
-    "lastName": "Rapport",
-    "promo": "2026",
-    "class": "C",
-    "previousRank": 35,
-    "rapid": {
-      "current": 1995,
-      "best": 2027
-    },
-    "blitz": {
-      "current": 2115,
-      "best": 2159
-    },
-    "history7days": [
-      1987,
-      1975,
-      2001,
-      2002,
-      1986,
-      2015,
-      2038
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 312,
-      "losses": 226,
-      "draws": 45
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2345508.jpeg"
-  },
-  {
-    "username": "Polish_fighter3000",
-    "firstName": "Jan-Krzysztof",
-    "lastName": "Duda",
-    "promo": "2025",
-    "class": "D",
-    "previousRank": 37,
-    "rapid": {
-      "current": 2637,
-      "best": 2812
-    },
-    "blitz": {
-      "current": 2497,
-      "best": 2556
-    },
-    "history7days": [
-      2665,
-      2663,
-      2646,
-      2667,
-      2663,
-      2685,
-      2683
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 185,
-      "losses": 356,
-      "draws": 13
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2037616.jpeg"
-  },
-  {
-    "username": "Harikrishna",
-    "firstName": "Pentala",
-    "lastName": "Harikrishna",
-    "promo": "2029",
-    "class": "B",
-    "previousRank": 39,
-    "rapid": {
-      "current": 1938,
-      "best": 1978
-    },
-    "blitz": {
-      "current": 1728,
-      "best": 1747
-    },
-    "history7days": [
-      1924,
-      1921,
-      1894,
-      1921,
-      1940,
-      1922,
-      1935
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 242,
-      "losses": 222,
-      "draws": 94
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9135404.jpeg"
-  },
-  {
-    "username": "DavidNavara",
-    "firstName": "David",
-    "lastName": "Navara",
-    "promo": "2025",
-    "class": "A",
-    "previousRank": 41,
-    "rapid": {
-      "current": 2315,
-      "best": 2437
-    },
-    "blitz": {
-      "current": 2389,
-      "best": 2524
-    },
-    "history7days": [
-      2335,
-      2350,
-      2350,
-      2354,
-      2338,
-      2331,
-      2348
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 332,
-      "losses": 214,
-      "draws": 66
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2708411.png"
-  },
-  {
-    "username": "SamShankland",
-    "firstName": "Sam",
-    "lastName": "Shankland",
-    "promo": "2029",
-    "class": "C",
-    "previousRank": 43,
-    "rapid": {
-      "current": 2340,
-      "best": 2539
-    },
-    "blitz": {
-      "current": 2591,
-      "best": 2685
-    },
-    "history7days": [
-      2357,
-      2350,
-      2369,
-      2388,
-      2362,
-      2348,
-      2325
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 489,
-      "losses": 282,
-      "draws": 77
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5873305.jpeg"
-  },
-  {
-    "username": "JefferyXiong",
-    "firstName": "Jeffery",
-    "lastName": "Xiong",
-    "promo": "2027",
-    "class": "D",
-    "previousRank": 45,
-    "rapid": {
-      "current": 806,
-      "best": 873
-    },
-    "blitz": {
-      "current": 638,
-      "best": 659
-    },
-    "history7days": [
-      812,
-      818,
-      794,
-      792,
-      777,
-      807,
-      830
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 87,
-      "losses": 195,
-      "draws": 18
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8078195.jpeg"
-  },
-  {
-    "username": "SamuelSevian",
-    "firstName": "Samuel",
-    "lastName": "Sevian",
-    "promo": "2029",
-    "class": "B",
-    "previousRank": 47,
-    "rapid": {
-      "current": 2185,
-      "best": 2323
-    },
-    "blitz": {
-      "current": 2132,
-      "best": 2229
-    },
-    "history7days": [
-      2174,
-      2194,
-      2177,
-      2194,
-      2164,
-      2186,
-      2180
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 344,
-      "losses": 206,
-      "draws": 38
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/7154927.png"
-  },
-  {
-    "username": "parham",
-    "firstName": "Parham",
-    "lastName": "Maghsoodloo",
-    "promo": "2025",
-    "class": "B",
-    "previousRank": 49,
-    "rapid": {
-      "current": 1514,
-      "best": 1585
-    },
-    "blitz": {
-      "current": 1506,
-      "best": 1606
-    },
-    "history7days": [
-      1541,
-      1545,
-      1542,
-      1572,
-      1583,
-      1568,
-      1572
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 252,
-      "losses": 30,
-      "draws": 44
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6751392.png"
-  },
-  {
-    "username": "Msb2",
-    "firstName": "Matthias",
-    "lastName": "Bluebaum",
-    "promo": "2025",
-    "class": "B",
-    "previousRank": 51,
-    "rapid": {
-      "current": 1780,
-      "best": 1830
-    },
-    "blitz": {
-      "current": 1615,
-      "best": 1656
-    },
-    "history7days": [
-      1809,
-      1827,
-      1831,
-      1834,
-      1850,
-      1863,
-      1858
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 466,
-      "losses": 90,
-      "draws": 77
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1739454.png"
-  },
-  {
-    "username": "DanielDubov",
-    "firstName": "Daniil",
-    "lastName": "Dubov",
-    "promo": "2027",
-    "class": "C",
-    "previousRank": 53,
-    "rapid": {
-      "current": 1321,
-      "best": 1321
-    },
-    "blitz": {
-      "current": 1377,
-      "best": 1482
-    },
-    "history7days": [
-      1324,
-      1335,
-      1358,
-      1382,
-      1410,
-      1422,
-      1444
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 98,
-      "losses": 341,
-      "draws": 59
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9161448.jpeg"
-  },
-  {
-    "username": "Svish",
-    "firstName": "Peter",
-    "lastName": "Svidler",
-    "promo": "2027",
-    "class": "C",
-    "previousRank": 55,
-    "rapid": {
-      "current": 1681,
-      "best": 1810
-    },
-    "blitz": {
-      "current": 1629,
-      "best": 1775
-    },
-    "history7days": [
-      1682,
-      1703,
-      1694,
-      1683,
-      1675,
-      1662,
-      1636
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 109,
-      "losses": 63,
-      "draws": 36
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9431353.jpeg"
-  },
-  {
-    "username": "Sibelephant",
-    "firstName": "Vladislav",
-    "lastName": "Artemiev",
-    "promo": "2028",
-    "class": "A",
-    "previousRank": 57,
-    "rapid": {
-      "current": 2779,
-      "best": 2838
-    },
-    "blitz": {
-      "current": 2647,
-      "best": 2662
-    },
-    "history7days": [
-      2789,
-      2767,
-      2792,
-      2778,
-      2788,
-      2771,
-      2789
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 474,
-      "losses": 390,
-      "draws": 14
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5891349.png"
-  },
-  {
-    "username": "AndreikinD",
-    "firstName": "Dmitry",
-    "lastName": "Andreikin",
-    "promo": "2025",
-    "class": "B",
-    "previousRank": 59,
-    "rapid": {
-      "current": 2448,
-      "best": 2508
-    },
-    "blitz": {
-      "current": 2675,
-      "best": 2687
-    },
-    "history7days": [
-      2468,
-      2440,
-      2435,
-      2428,
-      2418,
-      2414,
-      2393
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 223,
-      "losses": 291,
-      "draws": 11
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3977137.png"
-  },
-  {
-    "username": "radekw",
-    "firstName": "Radoslaw",
-    "lastName": "Wojtaszek",
-    "promo": "2027",
-    "class": "A",
-    "previousRank": 61,
-    "rapid": {
-      "current": 1540,
-      "best": 1560
-    },
-    "blitz": {
-      "current": 1501,
-      "best": 1575
-    },
-    "history7days": [
-      1560,
-      1536,
-      1506,
-      1480,
-      1486,
-      1480,
-      1509
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 85,
-      "losses": 277,
-      "draws": 85
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6329649.jpeg"
-  },
-  {
-    "username": "DavidAntonGuijarro",
-    "firstName": "David",
-    "lastName": "Anton",
-    "promo": "2025",
-    "class": "B",
-    "previousRank": 63,
-    "rapid": {
-      "current": 1627,
-      "best": 1811
-    },
-    "blitz": {
-      "current": 1558,
-      "best": 1663
-    },
-    "history7days": [
-      1632,
-      1661,
-      1655,
-      1668,
-      1683,
-      1686,
-      1675
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 267,
-      "losses": 296,
-      "draws": 71
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9638729.jpeg"
-  },
-  {
-    "username": "viditgujrathi",
-    "firstName": "Vidit",
-    "lastName": "Gujrathi",
-    "promo": "2025",
-    "class": "A",
-    "previousRank": 65,
-    "rapid": {
-      "current": 1641,
-      "best": 1715
-    },
-    "blitz": {
-      "current": 1791,
-      "best": 1936
-    },
-    "history7days": [
-      1659,
-      1686,
-      1692,
-      1715,
-      1740,
-      1759,
-      1762
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 252,
-      "losses": 161,
-      "draws": 54
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8769324.jpeg"
-  },
-  {
-    "username": "EtienneBacrot",
-    "firstName": "Etienne",
-    "lastName": "Bacrot",
-    "promo": "2029",
-    "class": "D",
-    "previousRank": 67,
-    "rapid": {
-      "current": 2326,
-      "best": 2367
-    },
-    "blitz": {
-      "current": 2332,
-      "best": 2347
-    },
-    "history7days": [
-      2329,
-      2345,
-      2323,
-      2351,
-      2378,
-      2383,
-      2408
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 436,
-      "losses": 348,
-      "draws": 44
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9419083.jpeg"
-  },
-  {
     "username": "vitik",
     "firstName": "Nikita",
     "lastName": "Vitiugov",
     "promo": "2027",
     "class": "B",
-    "previousRank": 69,
+    "previousRank": 29,
     "rapid": {
-      "current": 1363,
-      "best": 1416
+      "current": 535,
+      "best": 1200
     },
     "blitz": {
-      "current": 1250,
-      "best": 1324
+      "current": 622,
+      "best": 1200
     },
     "history7days": [
       1334,
@@ -1147,267 +923,11 @@
     ],
     "lastHistoryUpdate": "2025-12-16",
     "stats": {
-      "wins": 289,
-      "losses": 106,
-      "draws": 19
+      "wins": 12,
+      "losses": 24,
+      "draws": 4
     },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6308217.png"
-  },
-  {
-    "username": "Nisipeanu",
-    "firstName": "Liviu-Dieter",
-    "lastName": "Nisipeanu",
-    "promo": "2025",
-    "class": "C",
-    "previousRank": 71,
-    "rapid": {
-      "current": 1739,
-      "best": 1773
-    },
-    "blitz": {
-      "current": 1541,
-      "best": 1571
-    },
-    "history7days": [
-      1728,
-      1699,
-      1714,
-      1689,
-      1686,
-      1683,
-      1709
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 251,
-      "losses": 148,
-      "draws": 84
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/7733630.jpeg"
-  },
-  {
-    "username": "WangHao",
-    "firstName": "Wang",
-    "lastName": "Hao",
-    "promo": "2025",
-    "class": "B",
-    "previousRank": 73,
-    "rapid": {
-      "current": 826,
-      "best": 890
-    },
-    "blitz": {
-      "current": 639,
-      "best": 694
-    },
-    "history7days": [
-      835,
-      824,
-      841,
-      854,
-      870,
-      857,
-      883
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 133,
-      "losses": 78,
-      "draws": 80
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5650587.png"
-  },
-  {
-    "username": "YuYangyi",
-    "firstName": "Yu",
-    "lastName": "Yangyi",
-    "promo": "2025",
-    "class": "A",
-    "previousRank": 75,
-    "rapid": {
-      "current": 1468,
-      "best": 1502
-    },
-    "blitz": {
-      "current": 1643,
-      "best": 1670
-    },
-    "history7days": [
-      1474,
-      1453,
-      1460,
-      1453,
-      1428,
-      1411,
-      1437
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 52,
-      "losses": 120,
-      "draws": 64
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8140520.jpeg"
-  },
-  {
-    "username": "BassemAmin",
-    "firstName": "Bassem",
-    "lastName": "Amin",
-    "promo": "2026",
-    "class": "C",
-    "previousRank": 77,
-    "rapid": {
-      "current": 1517,
-      "best": 1617
-    },
-    "blitz": {
-      "current": 1747,
-      "best": 1867
-    },
-    "history7days": [
-      1498,
-      1484,
-      1470,
-      1440,
-      1459,
-      1446,
-      1438
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 196,
-      "losses": 350,
-      "draws": 24
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5614972.jpeg"
-  },
-  {
-    "username": "MickyAdams",
-    "firstName": "Michael",
-    "lastName": "Adams",
-    "promo": "2026",
-    "class": "A",
-    "previousRank": 79,
-    "rapid": {
-      "current": 2657,
-      "best": 2676
-    },
-    "blitz": {
-      "current": 2569,
-      "best": 2583
-    },
-    "history7days": [
-      2678,
-      2676,
-      2694,
-      2671,
-      2652,
-      2681,
-      2675
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 118,
-      "losses": 373,
-      "draws": 93
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/4642095.png"
-  },
-  {
-    "username": "LukeMcShane",
-    "firstName": "Luke",
-    "lastName": "McShane",
-    "promo": "2028",
-    "class": "B",
-    "previousRank": 81,
-    "rapid": {
-      "current": 2104,
-      "best": 2128
-    },
-    "blitz": {
-      "current": 2117,
-      "best": 2148
-    },
-    "history7days": [
-      2119,
-      2107,
-      2122,
-      2094,
-      2118,
-      2112,
-      2099
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 99,
-      "losses": 189,
-      "draws": 18
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1010638.jpeg"
-  },
-  {
-    "username": "GawainJones",
-    "firstName": "Gawain",
-    "lastName": "Jones",
-    "promo": "2029",
-    "class": "D",
-    "previousRank": 83,
-    "rapid": {
-      "current": 2102,
-      "best": 2218
-    },
-    "blitz": {
-      "current": 1909,
-      "best": 2021
-    },
-    "history7days": [
-      2088,
-      2114,
-      2089,
-      2074,
-      2069,
-      2069,
-      2059
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 126,
-      "losses": 365,
-      "draws": 61
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2465087.png"
-  },
-  {
-    "username": "RomainEdouard",
-    "firstName": "Romain",
-    "lastName": "Edouard",
-    "promo": "2027",
-    "class": "A",
-    "previousRank": 85,
-    "rapid": {
-      "current": 1575,
-      "best": 1625
-    },
-    "blitz": {
-      "current": 1866,
-      "best": 1966
-    },
-    "history7days": [
-      1600,
-      1613,
-      1606,
-      1577,
-      1548,
-      1525,
-      1526
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 209,
-      "losses": 249,
-      "draws": 56
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5637395.jpeg"
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/22609444.970e0b75.200x200o.6518e97dba34.jpeg"
   },
   {
     "username": "JulesMoussard",
@@ -1415,14 +935,14 @@
     "lastName": "Moussard",
     "promo": "2027",
     "class": "D",
-    "previousRank": 87,
+    "previousRank": 30,
     "rapid": {
-      "current": 1330,
-      "best": 1413
+      "current": 321,
+      "best": 0
     },
     "blitz": {
-      "current": 1593,
-      "best": 1712
+      "current": 0,
+      "best": 0
     },
     "history7days": [
       1337,
@@ -1435,267 +955,11 @@
     ],
     "lastHistoryUpdate": "2025-12-16",
     "stats": {
-      "wins": 166,
-      "losses": 105,
-      "draws": 82
+      "wins": 1,
+      "losses": 1,
+      "draws": 0
     },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8853913.png"
-  },
-  {
-    "username": "ChristianBauer",
-    "firstName": "Christian",
-    "lastName": "Bauer",
-    "promo": "2029",
-    "class": "A",
-    "previousRank": 89,
-    "rapid": {
-      "current": 2740,
-      "best": 2888
-    },
-    "blitz": {
-      "current": 2683,
-      "best": 2789
-    },
-    "history7days": [
-      2758,
-      2736,
-      2743,
-      2755,
-      2778,
-      2767,
-      2737
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 181,
-      "losses": 40,
-      "draws": 18
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1586182.png"
-  },
-  {
-    "username": "TigranGharamian",
-    "firstName": "Tigran",
-    "lastName": "Gharamian",
-    "promo": "2027",
-    "class": "C",
-    "previousRank": 91,
-    "rapid": {
-      "current": 2492,
-      "best": 2513
-    },
-    "blitz": {
-      "current": 2200,
-      "best": 2261
-    },
-    "history7days": [
-      2467,
-      2449,
-      2419,
-      2417,
-      2428,
-      2408,
-      2426
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 281,
-      "losses": 242,
-      "draws": 88
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2066383.jpeg"
-  },
-  {
-    "username": "RobertHovhannisyan",
-    "firstName": "Robert",
-    "lastName": "Hovhannisyan",
-    "promo": "2027",
-    "class": "B",
-    "previousRank": 93,
-    "rapid": {
-      "current": 1529,
-      "best": 1718
-    },
-    "blitz": {
-      "current": 1447,
-      "best": 1516
-    },
-    "history7days": [
-      1511,
-      1524,
-      1550,
-      1543,
-      1554,
-      1582,
-      1555
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 96,
-      "losses": 185,
-      "draws": 27
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/4129733.jpeg"
-  },
-  {
-    "username": "AlexeiShirov",
-    "firstName": "Alexei",
-    "lastName": "Shirov",
-    "promo": "2027",
-    "class": "C",
-    "previousRank": 95,
-    "rapid": {
-      "current": 2659,
-      "best": 2825
-    },
-    "blitz": {
-      "current": 2923,
-      "best": 3009
-    },
-    "history7days": [
-      2645,
-      2660,
-      2637,
-      2645,
-      2674,
-      2693,
-      2680
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 191,
-      "losses": 261,
-      "draws": 47
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9181393.png"
-  },
-  {
-    "username": "EvgenyBareev",
-    "firstName": "Evgeny",
-    "lastName": "Bareev",
-    "promo": "2025",
-    "class": "A",
-    "previousRank": 97,
-    "rapid": {
-      "current": 2145,
-      "best": 2326
-    },
-    "blitz": {
-      "current": 2214,
-      "best": 2249
-    },
-    "history7days": [
-      2161,
-      2181,
-      2206,
-      2191,
-      2201,
-      2206,
-      2191
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 104,
-      "losses": 376,
-      "draws": 68
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5382213.jpeg"
-  },
-  {
-    "username": "BorisGelfand",
-    "firstName": "Boris",
-    "lastName": "Gelfand",
-    "promo": "2028",
-    "class": "D",
-    "previousRank": 99,
-    "rapid": {
-      "current": 1692,
-      "best": 1824
-    },
-    "blitz": {
-      "current": 1392,
-      "best": 1455
-    },
-    "history7days": [
-      1671,
-      1690,
-      1712,
-      1705,
-      1720,
-      1720,
-      1708
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 74,
-      "losses": 350,
-      "draws": 93
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6813917.png"
-  },
-  {
-    "username": "JuditPolgar",
-    "firstName": "Judit",
-    "lastName": "Polgar",
-    "promo": "2025",
-    "class": "A",
-    "previousRank": 101,
-    "rapid": {
-      "current": 2583,
-      "best": 2654
-    },
-    "blitz": {
-      "current": 2468,
-      "best": 2476
-    },
-    "history7days": [
-      2606,
-      2626,
-      2647,
-      2620,
-      2641,
-      2664,
-      2665
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 434,
-      "losses": 205,
-      "draws": 73
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3451371.png"
-  },
-  {
-    "username": "SusanPolgar",
-    "firstName": "Susan",
-    "lastName": "Polgar",
-    "promo": "2026",
-    "class": "C",
-    "previousRank": 103,
-    "rapid": {
-      "current": 1561,
-      "best": 1698
-    },
-    "blitz": {
-      "current": 1659,
-      "best": 1790
-    },
-    "history7days": [
-      1587,
-      1616,
-      1637,
-      1664,
-      1643,
-      1663,
-      1633
-    ],
-    "lastHistoryUpdate": "2025-12-16",
-    "stats": {
-      "wins": 304,
-      "losses": 336,
-      "draws": 25
-    },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6342659.jpeg"
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/325414439.3e099394.200x200o.243783bb903e.jpg"
   },
   {
     "username": "AnnaMuzychuk",
@@ -1703,14 +967,14 @@
     "lastName": "Muzychuk",
     "promo": "2029",
     "class": "D",
-    "previousRank": 105,
+    "previousRank": 31,
     "rapid": {
-      "current": 2775,
-      "best": 2939
+      "current": 0,
+      "best": 0
     },
     "blitz": {
-      "current": 2983,
-      "best": 3061
+      "current": 1542,
+      "best": 0
     },
     "history7days": [
       2779,
@@ -1723,11 +987,299 @@
     ],
     "lastHistoryUpdate": "2025-12-16",
     "stats": {
-      "wins": 164,
-      "losses": 74,
-      "draws": 17
+      "wins": 0,
+      "losses": 2,
+      "draws": 0
     },
     "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3776550.jpeg"
+  },
+  {
+    "username": "MickyAdams",
+    "firstName": "Michael",
+    "lastName": "Adams",
+    "promo": "2026",
+    "class": "A",
+    "previousRank": 32,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      2678,
+      2676,
+      2694,
+      2671,
+      2652,
+      2681,
+      2675
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/142498949.5b523ada.200x200o.ce1ee691948f.jpeg"
+  },
+  {
+    "username": "JuditPolgar",
+    "firstName": "Judit",
+    "lastName": "Polgar",
+    "promo": "2025",
+    "class": "A",
+    "previousRank": 33,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 2718,
+      "best": 2772
+    },
+    "history7days": [
+      2606,
+      2626,
+      2647,
+      2620,
+      2641,
+      2664,
+      2665
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 10,
+      "losses": 4,
+      "draws": 2
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3889226.ca24d690.200x200o.9730c4e49a94.jpeg"
+  },
+  {
+    "username": "EtienneBacrot",
+    "firstName": "Etienne",
+    "lastName": "Bacrot",
+    "promo": "2029",
+    "class": "D",
+    "previousRank": 34,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1704,
+      "best": 1704
+    },
+    "history7days": [
+      2329,
+      2345,
+      2323,
+      2351,
+      2378,
+      2383,
+      2408
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 4,
+      "losses": 1,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9419083.jpeg"
+  },
+  {
+    "username": "DavidNavara",
+    "firstName": "David",
+    "lastName": "Navara",
+    "promo": "2025",
+    "class": "A",
+    "previousRank": 35,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1924,
+      "best": 1924
+    },
+    "history7days": [
+      2335,
+      2350,
+      2350,
+      2354,
+      2338,
+      2331,
+      2348
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2708411.png"
+  },
+  {
+    "username": "SamuelSevian",
+    "firstName": "Samuel",
+    "lastName": "Sevian",
+    "promo": "2029",
+    "class": "B",
+    "previousRank": 36,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1684,
+      "best": 1684
+    },
+    "history7days": [
+      2174,
+      2194,
+      2177,
+      2194,
+      2164,
+      2186,
+      2180
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 12,
+      "losses": 4,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/21847892.05ac01a7.200x200o.c5ea84f7b945.jpeg"
+  },
+  {
+    "username": "LukeMcShane",
+    "firstName": "Luke",
+    "lastName": "McShane",
+    "promo": "2028",
+    "class": "B",
+    "previousRank": 37,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1082,
+      "best": 0
+    },
+    "history7days": [
+      2119,
+      2107,
+      2122,
+      2094,
+      2118,
+      2112,
+      2099
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1010638.jpeg"
+  },
+  {
+    "username": "GawainJones",
+    "firstName": "Gawain",
+    "lastName": "Jones",
+    "promo": "2029",
+    "class": "D",
+    "previousRank": 38,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      2088,
+      2114,
+      2089,
+      2074,
+      2069,
+      2069,
+      2059
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3055609.69b790bf.200x200o.5ea0a4f0607a.jpeg"
+  },
+  {
+    "username": "RichardRapport",
+    "firstName": "Richard",
+    "lastName": "Rapport",
+    "promo": "2026",
+    "class": "C",
+    "previousRank": 39,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1277,
+      "best": 1384
+    },
+    "history7days": [
+      1987,
+      1975,
+      2001,
+      2002,
+      1986,
+      2015,
+      2038
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2345508.jpeg"
+  },
+  {
+    "username": "Wesley_So",
+    "firstName": "Wesley",
+    "lastName": "So",
+    "promo": "2025",
+    "class": "A",
+    "previousRank": 40,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1901,
+      1918,
+      1910,
+      1926,
+      1940,
+      1925,
+      1911
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6058486.jpeg"
   },
   {
     "username": "MariyaMuzychuk",
@@ -1735,14 +1287,14 @@
     "lastName": "Muzychuk",
     "promo": "2028",
     "class": "B",
-    "previousRank": 107,
+    "previousRank": 41,
     "rapid": {
-      "current": 1796,
-      "best": 1904
+      "current": 0,
+      "best": 0
     },
     "blitz": {
-      "current": 1566,
-      "best": 1693
+      "current": 2092,
+      "best": 2147
     },
     "history7days": [
       1771,
@@ -1755,10 +1307,458 @@
     ],
     "lastHistoryUpdate": "2025-12-16",
     "stats": {
-      "wins": 403,
-      "losses": 123,
-      "draws": 88
+      "wins": 8,
+      "losses": 1,
+      "draws": 0
     },
-    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/4171150.png"
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/43149792.7855dd02.200x200o.d4046c85fab4.jpeg"
+  },
+  {
+    "username": "BorisGelfand",
+    "firstName": "Boris",
+    "lastName": "Gelfand",
+    "promo": "2028",
+    "class": "D",
+    "previousRank": 42,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1080,
+      "best": 0
+    },
+    "history7days": [
+      1671,
+      1690,
+      1712,
+      1705,
+      1720,
+      1720,
+      1708
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 1,
+      "losses": 3,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5733573.680e8df7.200x200o.cd7845257d33.jpeg"
+  },
+  {
+    "username": "Svish",
+    "firstName": "Peter",
+    "lastName": "Svidler",
+    "promo": "2027",
+    "class": "C",
+    "previousRank": 43,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1682,
+      1703,
+      1694,
+      1683,
+      1675,
+      1662,
+      1636
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9431353.jpeg"
+  },
+  {
+    "username": "viditgujrathi",
+    "firstName": "Vidit",
+    "lastName": "Gujrathi",
+    "promo": "2025",
+    "class": "A",
+    "previousRank": 44,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1066,
+      "best": 0
+    },
+    "history7days": [
+      1659,
+      1686,
+      1692,
+      1715,
+      1740,
+      1759,
+      1762
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8769324.jpeg"
+  },
+  {
+    "username": "DavidAntonGuijarro",
+    "firstName": "David",
+    "lastName": "Anton",
+    "promo": "2025",
+    "class": "B",
+    "previousRank": 45,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1632,
+      1661,
+      1655,
+      1668,
+      1683,
+      1686,
+      1675
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9638729.jpeg"
+  },
+  {
+    "username": "SusanPolgar",
+    "firstName": "Susan",
+    "lastName": "Polgar",
+    "promo": "2026",
+    "class": "C",
+    "previousRank": 46,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1587,
+      1616,
+      1637,
+      1664,
+      1643,
+      1663,
+      1633
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3957848.67873b67.200x200o.0afc4db5eba8.jpeg"
+  },
+  {
+    "username": "radekw",
+    "firstName": "Radoslaw",
+    "lastName": "Wojtaszek",
+    "promo": "2027",
+    "class": "A",
+    "previousRank": 47,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1560,
+      1536,
+      1506,
+      1480,
+      1486,
+      1480,
+      1509
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6329649.jpeg"
+  },
+  {
+    "username": "RobertHovhannisyan",
+    "firstName": "Robert",
+    "lastName": "Hovhannisyan",
+    "promo": "2027",
+    "class": "B",
+    "previousRank": 48,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1511,
+      1524,
+      1550,
+      1543,
+      1554,
+      1582,
+      1555
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3595696.41002deb.200x200o.229fd17b8a08.jpeg"
+  },
+  {
+    "username": "parham",
+    "firstName": "Parham",
+    "lastName": "Maghsoodloo",
+    "promo": "2025",
+    "class": "B",
+    "previousRank": 49,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1541,
+      1545,
+      1542,
+      1572,
+      1583,
+      1568,
+      1572
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/6751392.png"
+  },
+  {
+    "username": "YuYangyi",
+    "firstName": "Yu",
+    "lastName": "Yangyi",
+    "promo": "2025",
+    "class": "A",
+    "previousRank": 50,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 2258,
+      "best": 2258
+    },
+    "history7days": [
+      1474,
+      1453,
+      1460,
+      1453,
+      1428,
+      1411,
+      1437
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 8,
+      "losses": 0,
+      "draws": 3
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8140520.jpeg"
+  },
+  {
+    "username": "DanielDubov",
+    "firstName": "Daniil",
+    "lastName": "Dubov",
+    "promo": "2027",
+    "class": "C",
+    "previousRank": 51,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1558,
+      "best": 0
+    },
+    "history7days": [
+      1324,
+      1335,
+      1358,
+      1382,
+      1410,
+      1422,
+      1444
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/9161448.jpeg"
+  },
+  {
+    "username": "mishanp",
+    "firstName": "Shakhriyar",
+    "lastName": "Mamedyarov",
+    "promo": "2027",
+    "class": "A",
+    "previousRank": 52,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      1216,
+      1203,
+      1176,
+      1175,
+      1188,
+      1199,
+      1228
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/8819253.png"
+  },
+  {
+    "username": "WangHao",
+    "firstName": "Wang",
+    "lastName": "Hao",
+    "promo": "2025",
+    "class": "B",
+    "previousRank": 53,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      835,
+      824,
+      841,
+      854,
+      870,
+      857,
+      883
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/55744640.3ff8fad8.200x200o.11f82e1641ce.jpeg"
+  },
+  {
+    "username": "JefferyXiong",
+    "firstName": "Jeffery",
+    "lastName": "Xiong",
+    "promo": "2027",
+    "class": "D",
+    "previousRank": 54,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 1461,
+      "best": 0
+    },
+    "history7days": [
+      812,
+      818,
+      794,
+      792,
+      777,
+      807,
+      830
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 3,
+      "draws": 1
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/92583578.8f4d1b23.200x200o.b2313533d0b4.jpeg"
+  },
+  {
+    "username": "Teimour",
+    "firstName": "Teimour",
+    "lastName": "Radjabov",
+    "promo": "2027",
+    "class": "C",
+    "previousRank": 55,
+    "rapid": {
+      "current": 0,
+      "best": 0
+    },
+    "blitz": {
+      "current": 0,
+      "best": 0
+    },
+    "history7days": [
+      778,
+      757,
+      772,
+      771,
+      778,
+      749,
+      749
+    ],
+    "lastHistoryUpdate": "2025-12-16",
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1732966.f7c58bf7.200x200o.bd5b3228d18c.jpeg"
   }
 ]
