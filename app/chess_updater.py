@@ -32,7 +32,8 @@ def should_run_update():
 
 def remove_expired_promos(players):
     """
-    Supprime les joueurs dont promo < année actuelle.
+    Supprime les joueurs diplômés (promo <= année actuelle).
+    Seuls les étudiants avec promo > année actuelle sont gardés.
 
     Args:
         players: Liste des joueurs
@@ -45,7 +46,7 @@ def remove_expired_promos(players):
 
     filtered = [
         p for p in players
-        if p.get('promo', '').isdigit() and int(p['promo']) >= current_year
+        if p.get('promo', '').isdigit() and int(p['promo']) > current_year
     ]
 
     removed_count = initial_count - len(filtered)
