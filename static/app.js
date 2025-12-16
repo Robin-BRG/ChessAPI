@@ -99,14 +99,21 @@ function sparkline(data) {
   </svg>`;
 }
 
-// No longer needed - promo and class are separate fields in DB
-// Kept for compatibility but not used
-function parseClass(cls){
-  if(!cls) return { promo: '—', letter: '' };
-  const parts = String(cls).trim().toUpperCase().split(/\s+/);
-  const promo = parts[0] || '—';
-  const letter = parts[1] || '';
-  return { promo, letter };
+// Calculer la classe (B1, B2, B3, M1, M2) à partir de l'année de promo
+function calculateClass(promoYear) {
+  if (!promoYear || promoYear === '—') return '—';
+
+  const currentYear = new Date().getFullYear();
+  const yearsUntilGraduation = parseInt(promoYear) - currentYear;
+
+  if (yearsUntilGraduation >= 5) return 'B1';
+  if (yearsUntilGraduation === 4) return 'B2';
+  if (yearsUntilGraduation === 3) return 'B3';
+  if (yearsUntilGraduation === 2) return 'M1';
+  if (yearsUntilGraduation === 1) return 'M2';
+  if (yearsUntilGraduation <= 0) return 'Diplômé';
+
+  return '—';
 }
 
 async function loadClientOnly(limit){
@@ -116,10 +123,13 @@ async function loadClientOnly(limit){
     const playersRes = await fetch('data/players.json?t=' + Date.now()); // cache buster
     if(!playersRes.ok) throw new Error('Impossible de lire data/players.json');
     let players = await playersRes.json();
-    
+
     // Le JSON contient déjà: current, best, history7days, previousRank
     // Plus besoin d'appeler l'API Chess.com !
-    
+
+    // IMPORTANT: Trier les joueurs par score Rapid décroissant
+    players.sort((a, b) => ((b.rapid?.current || 0) - (a.rapid?.current || 0)));
+
     // Calculer la direction des flèches
     players.forEach((p, idx) => {
       const currentRank = idx + 1;
@@ -297,9 +307,17 @@ function render(players){
     const rankNum = i + 1;
     const medals = ['🥇', '🥈', '🥉'];
     const promo = p.promo || '—';
-    const letter = p.class || '';
-    const badgeClass = `class-badge badge-${promo}`;
-    
+    const calculatedClass = calculateClass(p.promo);
+    // Ajouter la lettre de classe (A, B, C, etc.) en majuscule si elle existe
+    const classLetter = p.class ? p.class.toUpperCase().trim() : '';
+    const fullClass = classLetter ? `${calculatedClass} ${classLetter}` : calculatedClass;
+    const badgeClass = `class-badge badge-${calculatedClass}`;
+
+    // Afficher firstName + lastName s'ils existent, sinon username
+    const displayName = (p.firstName && p.lastName)
+      ? `${p.firstName} ${p.lastName}`
+      : p.username;
+
     const wrapper = document.createElement('div');
     wrapper.className = `podium-wrapper rank-${rankNum}`;
     const avatarUrl = p.avatar || 'https://api.dicebear.com/7.x/avataaars/svg?seed=' + p.username;
@@ -308,8 +326,22 @@ function render(players){
       <div class="podium-card">
         <div class="podium-medal">${medals[i]}</div>
         <div class="podium-bottom">
-          <div class="podium-name">${p.firstName} ${p.lastName}</div>
-          <div class="podium-score">${p.current ?? '—'}</div>
+          <div style="display: flex; align-items: center; gap: 0.3rem; justify-content: center; flex-wrap: wrap;">
+            <div class="podium-name">${displayName}</div>
+            <span class="${badgeClass}" style="font-size: 0.65rem; padding: 2px 5px;">${fullClass}</span>
+          </div>
+          <div class="podium-score">
+            <div class="score-group">
+              <svg class="score-icon rapid-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.97 14.63C11.07 14.63 10.1 13.9 10.47 12.4L11.5 8H12.5L13.53 12.37C13.9 13.9 12.9 14.64 11.96 14.64L11.97 14.63ZM12 22.5C6.77 22.5 2.5 18.23 2.5 13C2.5 7.77 6.77 3.5 12 3.5C17.23 3.5 21.5 7.77 21.5 13C21.5 18.23 17.23 22.5 12 22.5ZM12 19.5C16 19.5 18.5 17 18.5 13C18.5 9 16 6.5 12 6.5C8 6.5 5.5 9 5.5 13C5.5 17 8 19.5 12 19.5ZM10.5 5.23V1H13.5V5.23H10.5ZM15.5 2H8.5C8.5 0.3 8.93 0 12 0C15.07 0 15.5 0.3 15.5 2Z"/></svg>
+              <span class="score-value">${p.rapid?.current ?? '—'}</span>
+              <span class="score-best">(${p.rapid?.best ?? '—'})</span>
+            </div>
+            <div class="score-group">
+              <svg class="score-icon blitz-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.77002 15C4.74002 15 4.40002 14.6 4.57002 13.6L6.10002 3.4C6.27002 2.4 6.73002 2 7.77002 2H13.57C14.6 2 14.9 2.4 14.64 3.37L11.41 15H5.77002ZM18.83 9C19.86 9 20.03 9.33 19.4 10.13L9.73002 22.86C8.50002 24.49 8.13002 24.33 8.46002 22.29L10.66 8.99L18.83 9Z"/></svg>
+              <span class="score-value">${p.blitz?.current ?? '—'}</span>
+              <span class="score-best">(${p.blitz?.best ?? '—'})</span>
+            </div>
+          </div>
         </div>
       </div>
     `;
@@ -321,18 +353,38 @@ function render(players){
   const tbody2 = document.querySelector('#leaders-col2 tbody');
   tbody1.innerHTML = '';
   tbody2.innerHTML = '';
-  
+
   const remaining = players.slice(3, 50); // skip top 3, take next 47
-  const col1Players = remaining.slice(0, 25); // ranks 4-28
-  const col2Players = remaining.slice(25, 50); // ranks 29-53
-  
+
+  // Toujours afficher exactement 25 lignes par colonne (50 total - 3 podium = 47, réparti en 25 + 22)
+  const ROWS_PER_COL = 25;
+  const col1Players = remaining.slice(0, ROWS_PER_COL); // ranks 4-28 (25 joueurs max)
+  const col2Players = remaining.slice(ROWS_PER_COL, ROWS_PER_COL * 2); // ranks 29-53 (25 joueurs max)
+
   function renderRow(p, i, startRank) {
     const tr = document.createElement('tr');
     const rankNum = startRank + i;
+
+    // Si pas de joueur, créer une ligne vide
+    if (!p) {
+      tr.innerHTML = `
+        <td style="width:50px">${rankNum}</td>
+        <td><div class="user-cell"><span class="muted" style="font-size:0.75rem">—</span></div></td>
+        <td style="width:80px"><span class="muted">—</span></td>
+        <td style="width:120px"><span class="muted">—</span></td>
+        <td style="width:90px"></td>
+        <td style="width:100px"></td>
+      `;
+      return tr;
+    }
+
     const promo = p.promo || '—';
-    const letter = p.class || '';
-    const badgeClass = `class-badge badge-${promo}`;
-    
+    const calculatedClass = calculateClass(p.promo);
+    // Ajouter la lettre de classe (A, B, C, etc.) en majuscule si elle existe
+    const classLetter = p.class ? p.class.toUpperCase().trim() : '';
+    const fullClass = classLetter ? `${calculatedClass} ${classLetter}` : calculatedClass;
+    const badgeClass = `class-badge badge-${calculatedClass}`;
+
     tr.innerHTML = `
       <td style="width:50px">${arrowFor(p.direction)} ${rankNum}</td>
       <td>
@@ -346,16 +398,22 @@ function render(players){
       </td>
       <td style="width:80px">
         <span class="${badgeClass}">
-          ${promo}${letter ? ' <span class="promo-in-badge">' + letter + '</span>' : ''}
+          ${fullClass}
         </span>
       </td>
-      <td style="width:120px">
-        ${p.current ? `
-          <div>
-            <strong>${p.current}</strong>
-            <span class="muted" style="font-size:0.7rem">(${p.best ?? '—'})</span>
+      <td style="width:180px">
+        <div class="score-container">
+          <div class="score-row">
+            <svg class="score-icon rapid-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.97 14.63C11.07 14.63 10.1 13.9 10.47 12.4L11.5 8H12.5L13.53 12.37C13.9 13.9 12.9 14.64 11.96 14.64L11.97 14.63ZM12 22.5C6.77 22.5 2.5 18.23 2.5 13C2.5 7.77 6.77 3.5 12 3.5C17.23 3.5 21.5 7.77 21.5 13C21.5 18.23 17.23 22.5 12 22.5ZM12 19.5C16 19.5 18.5 17 18.5 13C18.5 9 16 6.5 12 6.5C8 6.5 5.5 9 5.5 13C5.5 17 8 19.5 12 19.5ZM10.5 5.23V1H13.5V5.23H10.5ZM15.5 2H8.5C8.5 0.3 8.93 0 12 0C15.07 0 15.5 0.3 15.5 2Z"/></svg>
+            <strong>${p.rapid?.current ?? '—'}</strong>
+            <span class="muted" style="font-size:0.7rem">(${p.rapid?.best ?? '—'})</span>
           </div>
-        ` : '<span class="muted" style="font-size:0.75rem">N/A</span>'}
+          <div class="score-row">
+            <svg class="score-icon blitz-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.77002 15C4.74002 15 4.40002 14.6 4.57002 13.6L6.10002 3.4C6.27002 2.4 6.73002 2 7.77002 2H13.57C14.6 2 14.9 2.4 14.64 3.37L11.41 15H5.77002ZM18.83 9C19.86 9 20.03 9.33 19.4 10.13L9.73002 22.86C8.50002 24.49 8.13002 24.33 8.46002 22.29L10.66 8.99L18.83 9Z"/></svg>
+            <strong>${p.blitz?.current ?? '—'}</strong>
+            <span class="muted" style="font-size:0.7rem">(${p.blitz?.best ?? '—'})</span>
+          </div>
+        </div>
       </td>
       <td style="width:90px">
         ${p.history7days ? sparkline(p.history7days) : ''}
@@ -366,9 +424,16 @@ function render(players){
     `;
     return tr;
   }
-  
-  col1Players.forEach((p, i) => tbody1.appendChild(renderRow(p, i, 4)));
-  col2Players.forEach((p, i) => tbody2.appendChild(renderRow(p, i, 29)));
+
+  // Remplir la colonne 1 (toujours 25 lignes)
+  for (let i = 0; i < ROWS_PER_COL; i++) {
+    tbody1.appendChild(renderRow(col1Players[i], i, 4));
+  }
+
+  // Remplir la colonne 2 (toujours 25 lignes)
+  for (let i = 0; i < ROWS_PER_COL; i++) {
+    tbody2.appendChild(renderRow(col2Players[i], i, 4 + ROWS_PER_COL));
+  }
 }
 
 // Note: 'load' button removed — use the refresh button instead.

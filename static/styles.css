@@ -25,6 +25,9 @@ button{padding:6px 10px;border-radius:6px;border:0;background:var(--accent);colo
 .refresh-btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--accent);padding:4px 8px;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.75rem}
 .refresh-btn:hover{background:rgba(255,255,255,0.02)}
 
+.slack-help{margin:6px 0 0;font-size:0.75rem;color:var(--muted);font-weight:400;text-align:right}
+.slack-help code{background:rgba(255,255,255,0.05);padding:2px 6px;border-radius:3px;color:var(--accent);font-family:Consolas, Monaco, monospace;font-size:0.85em}
+
 .table-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -77,17 +80,13 @@ table.leaders .avatar{width:28px;height:28px}
 /* promo chips */
 .promo-chip{display:inline-block;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.04);padding:3px 6px;border-radius:6px;margin-right:6px;font-size:0.85em;color:var(--text)}
 
-/* class badge color variants - solid opaque colors */
-.badge-B1{background: #2563eb; border: 2px solid #3b82f6; color: #fff; font-weight:600}
-.badge-B2{background: #059669; border: 2px solid #10b981; color: #fff; font-weight:600}
-.badge-B3{background: #d97706; border: 2px solid #f59e0b; color: #fff; font-weight:600}
-.badge-M1{background: #7c3aed; border: 2px solid #8b5cf6; color: #fff; font-weight:600}
-.badge-M2{background: #dc2626; border: 2px solid #ef4444; color: #fff; font-weight:600}
-.badge-B1{background: rgba(42,157,244,0.24); border-color: rgba(42,157,244,0.35); color: #e6f7ff}
-.badge-B2{background: rgba(102,194,165,0.24); border-color: rgba(102,194,165,0.35); color: #e9fff5}
-.badge-B3{background: rgba(244,180,0,0.24); border-color: rgba(244,180,0,0.35); color: #fff8e6}
-.badge-M1{background: rgba(155,89,182,0.24); border-color: rgba(155,89,182,0.35); color: #f8eaff}
-.badge-M2{background: rgba(255,107,107,0.24); border-color: rgba(255,107,107,0.35); color: #fff0f0}
+/* class badge color variants */
+.badge-B1{background: rgba(42,157,244,0.24); border-color: rgba(42,157,244,0.35); color: #e6f7ff; font-weight:600}
+.badge-B2{background: rgba(102,194,165,0.24); border-color: rgba(102,194,165,0.35); color: #e9fff5; font-weight:600}
+.badge-B3{background: rgba(244,180,0,0.24); border-color: rgba(244,180,0,0.35); color: #fff8e6; font-weight:600}
+.badge-M1{background: rgba(155,89,182,0.24); border-color: rgba(155,89,182,0.35); color: #f8eaff; font-weight:600}
+.badge-M2{background: rgba(255,107,107,0.24); border-color: rgba(255,107,107,0.35); color: #fff0f0; font-weight:600}
+.badge-Diplômé{background: rgba(34,197,94,0.24); border-color: rgba(34,197,94,0.35); color: #d1fae5; font-weight:600}
 .badge-\u2014{background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.06); color: var(--text)}
 
 /* Podium */
@@ -167,6 +166,65 @@ table.leaders .avatar{width:28px;height:28px}
   box-shadow: 0 0 15px rgba(205, 127, 50, 0.3);
   height: 8vh;
   background: linear-gradient(180deg, rgba(205, 127, 50, 0.06) 0%, var(--card) 100%);
+}
+
+/* Score styles (Rapid & Blitz) */
+.score-group {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0.15rem 0;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+  align-items: center;
+}
+
+.score-row {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.score-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.rapid-icon {
+  fill: #66b2ff;
+}
+
+.blitz-icon {
+  fill: #ff9f1c;
+}
+
+.score-value {
+  font-weight: 600;
+}
+
+.score-best {
+  opacity: 0.7;
+  font-size: 0.85em;
+}
+
+.podium-score {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.podium-score .score-group {
+  margin: 0;
 }
 
 .podium-avatar-top {
