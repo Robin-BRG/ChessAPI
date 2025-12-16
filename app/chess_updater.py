@@ -194,10 +194,17 @@ def update_all_players():
                 logger.warning(f"Failed to update {username}, keeping old stats")
                 error_count += 1
 
-        # 6. Re-trier après mises à jour (par score Rapid)
+        # 6. Supprimer les joueurs sans score Rapid (n'ont pas joué de parties Rapid)
+        before_filter = len(players)
+        players = [p for p in players if p.get('rapid', {}).get('current', 0) > 0]
+        filtered_count = before_filter - len(players)
+        if filtered_count > 0:
+            logger.info(f"Removed {filtered_count} players with no Rapid games")
+
+        # 7. Re-trier après mises à jour (par score Rapid)
         players = sorted(players, key=lambda x: x.get('rapid', {}).get('current', 0), reverse=True)
 
-        # 7. Sauvegarder atomiquement (temp file + rename)
+        # 8. Sauvegarder atomiquement (temp file + rename)
         if success_count > 0:
             try:
                 temp_path = JSON_PATH.with_suffix('.json.tmp')
@@ -208,12 +215,13 @@ def update_all_players():
                 if temp_path.exists():
                     shutil.move(str(temp_path), str(JSON_PATH))
 
-                logger.info(f"✓ Update complete: {success_count} success, {error_count} errors, {removed_count} removed")
+                logger.info(f"✓ Update complete: {success_count} success, {error_count} errors, {removed_count} expired, {filtered_count} no games")
                 return {
                     "success": True,
                     "updated": success_count,
                     "errors": error_count,
                     "removed": removed_count,
+                    "filtered": filtered_count,
                     "total": len(players)
                 }
             except Exception as e:
